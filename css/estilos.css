@@ -1,0 +1,121 @@
+header {
+background-color:black;
+text-align:center;
+}
+
+.logo h1 {
+Width:40%;
+max-width: 800 px;
+margin:0;
+}
+
+.logo img{
+display: block;
+width: 100%;
+height: auto;
+margin: 0;
+}
+
+h1{
+text-aling: center;
+color: red;
+}
+
+nav {
+width:100%;
+text-align:center;
+background-color:#080B14;
+margin:0;
+ }
+
+
+nav a {
+display:inline-block;
+margin: 6px; /*cambia el ancho del fondo del Menu */
+padding: 10px; 25px;
+background-color: gray; /*color oscuro para el fondo del botón */
+color:#ffffff
+font-family: Montserrat, sans-serif; /* Montserrat es el texto principal, si falla va a cargar sans-serif*/
+font-size: 1em;
+text-decoration: none; /*Esto quita el subrayado del enlace*/
+border-radius:10px; /* bordes redondeados*/ 
+transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+color: red; /*color del texto al pasar el cursor*/
+background-color: white;
+}
+
+
+body {
+margin: 0;
+background-image:url(../img/Fondo.png);
+background-attachment:fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+section {
+background-color:white;
+color: black;
+width:70%;
+max-width: 900px;
+margin: 10px auto;
+font-size: 20px;
+padding: 20px;
+border-radius: 10px;
+text-align:justify;
+font-family: Montserrat, sans-serif;
+}
+
+section h1{
+text-align: center;
+color:red;
+font-family: Roboto, sans- serif;
+}
+
+.centrar {
+text-align:center;
+}
+
+.centrar img {
+width: 100%;
+max-width:600px;
+height: auto;
+}
+.video {
+
+width: 100%;
+max-width: 560px;
+aspect-ratio: 16 / 9;
+border: none;
+}
+
+footer{
+background-color: red;
+color: black;
+text aling: center;
+padding: 15px;
+font-family: Roboto, sans- serif;
+}
+
+@media (max-width: 600px) {
+nav a {
+display: block;
+width: 90%;
+margin: 10px auto;
+}
+
+section{
+width: 85%;
+font-size: 18 px;
+text-align: left;
+{
+
+.logo h1 {
+font-size: 32px;
+}
+
+}
